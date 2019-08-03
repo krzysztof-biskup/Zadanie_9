@@ -1,7 +1,7 @@
 {
-  "name": "learning-git-2",
+  "name": "zadanie_9",
   "version": "1.0.0",
-  "description": "https://krzysztof-biskup.github.io/learning-git-2/",
+  "description": "https://krzysztof-biskup.github.io/Zadanie_9/",
   "main": "index.js",
   "scripts": {
     "test": "npm-run-all test:*",
@@ -21,15 +21,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krzysztof-biskup/learning-git-2.git"
+    "url": "git+https://github.com/krzysztof-biskup/Zadanie_9.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/krzysztof-biskup/learning-git-2/issues"
+    "url": "https://github.com/krzysztof-biskup/Zadanie_9/issues"
   },
-  "homepage": "https://github.com/krzysztof-biskup/learning-git-2#readme",
+  "homepage": "https://github.com/krzysztof-biskup/Zadanie_9#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.7",
