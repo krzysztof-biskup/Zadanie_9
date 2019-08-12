@@ -4,9 +4,6 @@
 @import "layout";
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 
-body {
-    margin: 50px;
-}
 .page-header {
     font-family: $page-header-font;
     font-size: $page-header-font-size;
@@ -31,6 +28,31 @@ body {
     font-weight: 300;
     line-height: 1.5;
 }
+.logo {
+    padding: 19px 21px;
+}
+.menu-links {
+    
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0;
+    li {
+        padding: 15px;        
+    }
+    .active {
+        background-color: #272727;
+        max-width: 100%;
+        a {
+        color: #FFFFFF;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: $menu-links; 
+    }
+}
+
 
 .large-link {
     font-family: $link-font;
@@ -62,4 +84,38 @@ body {
 
 .icon-link:hover {
     color: $link-color-hover;
+}
+
+.button {
+    border: none;
+    border-radius: $button-border-radius;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: $button-font;
+    color: $button-font-color;
+    font-weight: 300;
+    font-size: $button-font-size;
+}
+
+.gray-button {
+    background-color: $gray-button;
+}
+
+.lightgray-button {
+    background-color: $lightgray-button;
+}
+
+.orange-button {
+    background-color: $orange-button;
+}
+
+.lightorange-button {
+    background-color: $lightorange-button;
+}
+
+.sidebar {
+    background-color: $sidebar-background;
+    width: 188px;
+    height: 100vh;
 }

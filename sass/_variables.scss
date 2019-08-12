@@ -5,6 +5,14 @@ $gray-color: #A6A6A6;
 $text-color: #333333;
 $link-color: #56819F;
 $link-color-hover: #FFA200;
+$gray-button: #979797;
+$lightgray-button: #B9B9B9;
+$orange-button: #F5811F;
+$lightorange-button: #FFA100;
+$menu-links: #999999;
+
+/* Font colors */
+$button-font-color: #FFFFFF;
 
 /* Font sizes */
 $paragraph-font-size: 16px;
@@ -14,6 +22,8 @@ $text-font-size: 14px;
 $large-link-size: 16px;
 $small-link-size: 13px;
 $icon-link-size: 13px;
+$button-font-size: 18px;
+
 
 /* Fonts */
 $brand-font: "Roboto", Helvetica, Arial;
@@ -22,6 +32,14 @@ $page-header-font: "Roboto", Helvetica, Arial;
 $section-header-font: "Roboto", Helvetica, Arial;
 $text-font: "Roboto", Helvetica, Arial;
 $link-font: "Roboto", Helvetica, Arial;
+$button-font: "Roboto", Helvetica, Arial;
 
 /* Decoration */
 $link-decoration: none;
+
+/* Buttons */
+$button-border-radius: 5%;
+
+/* Backgrounds */
+
+$sidebar-background: #191919;
