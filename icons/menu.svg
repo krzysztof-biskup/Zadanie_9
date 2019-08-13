@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-152,-23)">
+        <g id="hamburger" transform="matrix(1,0,0,1,-104,-233)">
+            <use xlink:href="#_Image1" x="255" y="255" width="20px" height="18px"/>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="20px" height="18px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAASklEQVQ4je2SIRIAIAzDUo6/7k3bZ4dB4KlAEDOXa3cFMwLIzHbIIkLDITqZ+8oltCcUQLflhUjyJ5wAVeUVAp7O8GdzK/uzeZMFAqEPyCasAT8AAAAASUVORK5CYII="/>
+    </defs>
+</svg>

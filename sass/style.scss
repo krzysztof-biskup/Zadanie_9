@@ -4,6 +4,10 @@
 @import "layout";
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 
+body {
+    background-color: $background;
+}
+
 .page-header {
     font-family: $page-header-font;
     font-size: $page-header-font-size;
@@ -28,31 +32,6 @@
     font-weight: 300;
     line-height: 1.5;
 }
-.logo {
-    padding: 19px 21px;
-}
-.menu-links {
-    
-    list-style: none;
-    font-size: 14px;
-    line-height: 1.5;
-    padding: 0;
-    li {
-        padding: 15px;        
-    }
-    .active {
-        background-color: #272727;
-        max-width: 100%;
-        a {
-        color: #FFFFFF;
-        }
-    }
-    a {
-        text-decoration: none;
-        color: $menu-links; 
-    }
-}
-
 
 .large-link {
     font-family: $link-font;
@@ -116,6 +95,77 @@
 
 .sidebar {
     background-color: $sidebar-background;
-    width: 188px;
+    max-width: 188px;
     height: 100vh;
+    .menu{
+        display: flex;
+        align-items: baseline;
+        .logo {
+            padding: 19px 0px 0px 21px;
+            width: 83px;
+            height: 23px;
+        }
+        .menu-icon {
+            width: 18px;
+            height: 16px;
+            padding-left: 46px;
+        }
+    }
+    .icons {
+        width: 14px;
+        height: 13px;
+        fill: #808080;
+        padding: 0 15px 0 20px;
+    }
+    .menu-links {   
+        list-style: none;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0;
+        li {
+            padding: 15px;        
+        }
+        .active {
+            background-color: #272727;
+            max-width: 100%;
+            a {
+                color: #FFFFFF;
+            }
+            .icons {
+                fill: #FFFFFF;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: $menu-links;
+            font-family: $link-font;
+            font-weight: 200; 
+        }
+    }
+    .manager {
+        p {
+            font-family: $text-font;
+            color: $text-color-gray;
+            font-size: $text-font-size;
+            text-transform: uppercase;
+            font-weight: 500; 
+            padding-left: 18px;
+            padding-top: 28px;
+        }
+        .manager-avatar {
+            display: flex;
+            align-items: center;
+            padding-left: 18px;
+            padding-top: 19px;
+            a {
+                padding-left: 11px;
+                color: $link-color;
+                font-family: $link-font;
+                font-weight: 300;
+                text-decoration: none;
+                font-size: $text-font-size;
+            }
+        }
+    }
 }
+
